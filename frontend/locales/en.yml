@@ -1,0 +1,13 @@
+en:
+  plugins:
+    nyu_marcxml_export_plugin:
+      label: NYU MARC XML Export Plugin
+      title: NYU MARC XML Export Plugin
+      version: 4.2.1
+      url: https://github.com/NYULibraries/nyu_marcxml_export_plugin/releases/tag/v4.2.1
+
+  resource:
+    user_defined:
+      string_1: Call number
+      string_2: bnumber
+      string_3: Local identifier
