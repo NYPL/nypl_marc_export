@@ -40,7 +40,7 @@ class MARCCustomFieldSerialize
       @field_pairs << add_946
       @field_pairs << add_949_fixed
       top_containers = @record.aspace_record['top_containers']
-      Log.info("[nyu_marcxml DEBUG] top_containers=#{top_containers.map { |k, v| {id: k, type: v[:type], indicator: v[:indicator]} }.inspect}")
+      Log.info("[nypl_marc_export DEBUG] top_containers=#{top_containers.map { |k, v| {id: k, type: v[:type], indicator: v[:indicator]} }.inspect}")
       sort_top_containers(top_containers).each{ |id|
         info = top_containers[id[0]]
         @field_pairs << add_949_tag(info)

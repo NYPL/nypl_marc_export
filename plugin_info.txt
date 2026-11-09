@@ -1,2 +1,2 @@
-AppConfig[:plugins] = ['nyu_marcxml']
+AppConfig[:plugins] = ['nypl_marc_export']
 plugin_version:4.2.1

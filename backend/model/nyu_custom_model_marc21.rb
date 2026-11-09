@@ -113,7 +113,7 @@ class MARCModel < ASpaceExport::ExportModel
 
 
   def self.assemble_controlfield_string(obj)
-    Log.info("[nyu_marcxml plugin] assemble_controlfield_string called for object id=#{obj['id'] rescue obj.id}")
+    Log.info("[nypl_marc_export] assemble_controlfield_string called for object id=#{obj['id'] rescue obj.id}")
     date = obj.dates[0] || {}
     string = obj['system_mtime'].scan(/\d{2}/)[1..3].join('')
     string += date['date_type'] == 'single' ? 's' : 'i'
