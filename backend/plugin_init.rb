@@ -1,4 +1,3 @@
-$stderr.puts("!!!!! NYU_MARCXML PLUGIN_INIT.RB IS LOADING !!!!!")
 require_relative 'lib/marc_custom_field_serialize'
 require_relative 'lib/nyu_custom_tag'
 require_relative 'lib/nyu_custom_serializer_marc21'
